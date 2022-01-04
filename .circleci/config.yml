@@ -4,6 +4,7 @@ jobs:
     parallelism: 15
     docker:
     - image: cimg/base:2021.02-20.04
+    resource_class: large
 
     working_directory: /home/circleci/postgres
 
@@ -17,6 +18,7 @@ jobs:
     parallelism: 15
     docker:
     - image: cimg/base:2021.02-20.04
+    resource_class: large
 
     working_directory: /home/circleci/postgres
 
